@@ -27,19 +27,36 @@ struct ApexPredator: Decodable, Identifiable {
         let movie: String
         let sceneDescription: String
     }
+}
+
+enum PredatorType: String, Decodable, CaseIterable, Identifiable {
+    var id: PredatorType { self }
     
-    enum PredatorType: String, Decodable {
-        case land, air, sea
-        
-        var background: Color {
-            switch self {
-            case .land:
-                .brown
-            case .air:
-                .teal
-            case .sea:
-                .blue
-            }
+    case all, land, air, sea
+    
+    var background: Color {
+        switch self {
+        case .all:
+            .black
+        case .land:
+            .brown
+        case .air:
+            .teal
+        case .sea:
+            .blue
+        }
+    }
+    
+    var icon: String {
+        switch self {
+        case .all:
+            "square.stack.3d.up.fill"
+        case .land:
+            "leaf.fill"
+        case .air:
+            "wind"
+        case .sea:
+            "drop.fill"
         }
     }
 }
