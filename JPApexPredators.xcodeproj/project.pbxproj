@@ -14,6 +14,7 @@
 		3B3BA8FD2BAAC5C700B37F9B /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B3BA8FC2BAAC5C700B37F9B /* jpapexpredators.json */; };
 		3B3BA8FF2BAAC73300B37F9B /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3BA8FE2BAAC73300B37F9B /* ApexPredator.swift */; };
 		3B3BA9012BAACA1D00B37F9B /* Predators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3BA9002BAACA1D00B37F9B /* Predators.swift */; };
+		3B3BA9032BAD53FA00B37F9B /* PredatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3BA9022BAD53FA00B37F9B /* PredatorDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3B3BA8FC2BAAC5C700B37F9B /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
 		3B3BA8FE2BAAC73300B37F9B /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
 		3B3BA9002BAACA1D00B37F9B /* Predators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predators.swift; sourceTree = "<group>"; };
+		3B3BA9022BAD53FA00B37F9B /* PredatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				3B3BA8EE2BAAC1C600B37F9B /* JPApexPredatorsApp.swift */,
 				3B3BA8F02BAAC1C600B37F9B /* ContentView.swift */,
+				3B3BA9022BAD53FA00B37F9B /* PredatorDetail.swift */,
 				3B3BA8FE2BAAC73300B37F9B /* ApexPredator.swift */,
 				3B3BA9002BAACA1D00B37F9B /* Predators.swift */,
 				3B3BA8FC2BAAC5C700B37F9B /* jpapexpredators.json */,
@@ -149,6 +152,7 @@
 			files = (
 				3B3BA8F12BAAC1C600B37F9B /* ContentView.swift in Sources */,
 				3B3BA8FF2BAAC73300B37F9B /* ApexPredator.swift in Sources */,
+				3B3BA9032BAD53FA00B37F9B /* PredatorDetail.swift in Sources */,
 				3B3BA9012BAACA1D00B37F9B /* Predators.swift in Sources */,
 				3B3BA8EF2BAAC1C600B37F9B /* JPApexPredatorsApp.swift in Sources */,
 			);
