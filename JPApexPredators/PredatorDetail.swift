@@ -45,7 +45,8 @@ struct PredatorDetail: View {
                     Text(predator.name)
                         .font(.largeTitle)
                     NavigationLink {
-                        Image(predator.image)
+                        PredatorMap(position: .camera(MapCamera(centerCoordinate: predator.location, distance: 1000, heading: 250, pitch: 80)))
+                        
                     } label: {
                         Map(position: $position) {
                             Annotation(predator.name, coordinate: predator.location) {
